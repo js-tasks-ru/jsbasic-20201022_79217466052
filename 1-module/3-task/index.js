@@ -3,6 +3,9 @@
  * @param {string} str
  * @returns {string}
  */
+
 function ucFirst(str) {
-  // ваш код...
+  let newString = ( str.length > 0 ) ? str[0].toUpperCase() + str.slice(1) :
+    str;
+  return newString
 }
