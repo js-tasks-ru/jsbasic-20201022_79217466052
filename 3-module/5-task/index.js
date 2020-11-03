@@ -17,7 +17,5 @@ function getMinMax(str) {
     max: str[str.length - 1],
   };
 
-
-  console.log(result);
   return result
 }
