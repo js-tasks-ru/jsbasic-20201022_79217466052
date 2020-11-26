@@ -83,11 +83,8 @@ export default class Carousel {
             carouselButton.appendChild(buttonImage);
     }
 
-
-    const width = 988; // не понимаю, как достать ширину одного слайда :(
-
+    const width = 500; // не понимаю, как достать ширину одного слайда offesetWidth = 0 :(
     let currentImg = 0 // следим за тем, какая картинка у нас показывается
-
     arrowLeft.style.display = 'none'; // прячем левую стрелку
     if (imagesNumber == 1) {
         arrowRight.style.display = 'none'; // и правую тоже, если у нас одна картинка
